@@ -1,0 +1,51 @@
+.page-header {
+  padding: 100px 0 60px;
+  background: linear-gradient(135deg, #0066ff, #3399ff);
+  color: #fff;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.page-header p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.services-list {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.cta-section {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.cta-content h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.cta-content p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 32px;
+  }
+
+  .cta-content h2 {
+    font-size: 32px;
+  }
+}
+

@@ -1,0 +1,143 @@
+.project-detail-page {
+  min-height: 100vh;
+}
+
+.page-header {
+  padding: 100px 0 60px;
+  background: #0066ff;
+  color: #fff;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.page-header p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.project-detail-content {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.project-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.project-info {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #666;
+}
+
+.info-item svg {
+  color: #0066ff;
+}
+
+.project-description h2,
+.project-details h2,
+.project-gallery h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.project-description p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.project-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-details li {
+  padding: 12px 0;
+  padding-left: 25px;
+  position: relative;
+  color: #666;
+  line-height: 1.8;
+}
+
+.project-details li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #0066ff;
+  font-weight: 700;
+}
+
+.gallery-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+.project-sidebar {
+  position: sticky;
+  top: 100px;
+}
+
+.sidebar-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.sidebar-info p {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.sidebar-info strong {
+  color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 32px;
+  }
+
+  .project-description h2,
+  .project-details h2,
+  .project-gallery h2 {
+    font-size: 28px;
+  }
+}
+
